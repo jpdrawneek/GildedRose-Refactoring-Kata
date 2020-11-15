@@ -47,6 +47,7 @@ describe("Gilded Rose", function() {
   ${'widget A'} | ${'widget A'} | ${10} | ${10} | ${9} | ${8}
   ${'widget A out of date'} | ${'widget A'} | ${0} | ${10} | ${-1} | ${6}
   ${'widget B'} | ${'widget B'} | ${10} | ${0} | ${9} | ${0}
+  ${'widget B out of date'} | ${'widget B'} | ${0} | ${1} | ${-1} | ${0}
   ${'Aged Brie normal'} | ${'Aged Brie'} | ${10} | ${10} | ${9} | ${11}
   ${'Aged Brie out of date'} | ${'Aged Brie'} | ${-1} | ${10} | ${-2} | ${12}
   ${'Aged Brie max'} | ${'Aged Brie'} | ${10} | ${50} | ${9} | ${50}
